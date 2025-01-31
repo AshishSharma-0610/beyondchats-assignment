@@ -225,6 +225,22 @@ window.beyondchats = {
                     </Alert>
                 )}
 
+                <Alert>
+                    <Send className="h-4 w-4" />
+                    <AlertDescription>
+                        Need help? Send these instructions to your developer:
+                        <Button
+                            variant="link"
+                            className="h-auto p-0 ml-2"
+                            onClick={() => {
+                                alert("Instructions sent to developer!")
+                            }}
+                        >
+                            Email Instructions
+                        </Button>
+                    </AlertDescription>
+                </Alert>
+
                 {/* Success Message & Further Actions */}
                 {testStatus === "success" && (
                     <div className="space-y-4 animate-in fade-in slide-in-from-bottom-4">
