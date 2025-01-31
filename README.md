@@ -1,5 +1,4 @@
-# BeyondChats Setup Flow
-
+# BeyondChats Assignment
 A modern, accessible setup flow for BeyondChats with real-time website scraping visualization and intelligent chatbot training.
 
 ## Live Preview
