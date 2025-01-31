@@ -51,7 +51,7 @@ export default function RegistrationForm() {
             setValidations((prev) => ({ ...prev, password: isValid }))  // Update password validation
             setErrors((prev) => ({
                 ...prev,
-                password: isValid ? null : "Password must meet complexity requirements",  // Set error if invalid
+                password: isValid ? null : "Password must be at least 8 characters: mix of numbers, letters, and special symbols",  // Set error if invalid
             }))
         }
     }, [debouncedPassword])
